@@ -5,7 +5,7 @@ const Item = ({ id, name, task }) => {
 	return (
 		<Link
 			className={`${task.completed ? 'surprise-box surprise-box-completed' : 'surprise-box'}`}
-			to={`${task.completed ? '#' : `/items/${id}`}`}>
+			to={`${task.completed ? '#' : `/gift/items/${id}`}`}>
 			🎁 {name}
 		</Link>
 	);

@@ -27,7 +27,7 @@ const YourSurprises = () => {
 			{surprises ? (
 				<div className="surprise-item">
 					<div className="surprise-item-header">
-						<Link className="back-btn" to="/">
+						<Link className="back-btn" to="/gift">
 							❮
 						</Link>
 						Твои сюрпризы

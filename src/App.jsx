@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 
 import Home from 'pages/Home';
 import Surprise from 'pages/Surprise';
@@ -9,10 +9,10 @@ const App = () => {
 	return (
 		<div className="content">
 			<Routes>
-				<Route path="/" element={<Home />} />
-				<Route path="/items/:id" element={<Surprise />} />
-				<Route path="/yoursurprises" element={<YourSurprises />} />
-				<Route path="*" element={<Home />} />
+				<Route path="/gift" element={<Home />} />
+				<Route path="/gift/items/:id" element={<Surprise />} />
+				<Route path="/gift/yoursurprises" element={<YourSurprises />} />
+				<Route path="*" element={<Navigate to="/gift" replace={true} />} />
 			</Routes>
 		</div>
 	);

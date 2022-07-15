@@ -6,7 +6,7 @@ const Header = ({ count }) => {
 
 	return (
 		<div className="surprise-item-header main-header">
-			<Link className="yoursp" to="/yoursurprises">
+			<Link className="yoursp" to="/gift/yoursurprises">
 				Твои сюрпризы
 			</Link>
 			<div

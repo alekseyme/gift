@@ -40,7 +40,7 @@ const Home = () => {
 						</b>
 						<Link
 							className="yoursp"
-							to="/yoursurprises"
+							to="/gift/yoursurprises"
 							style={{
 								position: 'absolute',
 								bottom: 30,

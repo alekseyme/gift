@@ -26,7 +26,7 @@ const Surprise = () => {
 			{surprise ? (
 				<div className="surprise-item">
 					<div className="surprise-item-header">
-						<Link className="back-btn" to="/">
+						<Link className="back-btn" to="/gift">
 							❮
 						</Link>
 
