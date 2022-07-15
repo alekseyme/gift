@@ -62,7 +62,7 @@ const QRsurprise = ({ successText, successItem }) => {
 						}}>
 						<span
 							style={{
-								fontSize: 60,
+								fontSize: 80,
 							}}>
 							🎁
 						</span>
