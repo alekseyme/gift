@@ -19,7 +19,7 @@ const Quastion = ({ id, task }) => {
 			try {
 				const { data } = await api().put('/items/' + id, successTask);
 				const rspTime = await api().put('/time/1', {
-					nextAttempt: dayjs().add(2, 'minute'),
+					nextAttempt: dayjs().add(1, 'day'),
 				});
 				setCompleted(data.task.completed);
 				console.log(rspTime.data);

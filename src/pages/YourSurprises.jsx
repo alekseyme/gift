@@ -20,8 +20,6 @@ const YourSurprises = () => {
 		getCompletedSurprises(); // eslint-disable-next-line
 	}, []);
 
-	console.log(surprises);
-
 	return (
 		<>
 			{surprises ? (
